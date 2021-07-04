@@ -2,9 +2,9 @@ import React from 'react';
 import { Typography, AppBar } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-import VideoPlayer from './components/VideoPlayer';
-import Sidebar from './components/Sidebar';
-import Notifications from './components/Notifications';
+import VideoPlayer from './Components/VideoPlayer';
+import Sidebar from './Components/Sidebar';
+import Notifications from './Components/Notification';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
